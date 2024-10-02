@@ -32,6 +32,8 @@ import About from "./page/About.tsx";
 import Login from "./page/Login.tsx";
 import Register from "./page/Register.tsx";
 import Schedule from "./page/Schedule.tsx";
+import Room from "./page/Room.tsx";
+import Popup from "./page/Popup.tsx";
 
 const drawerWidth = 240;
 
@@ -376,6 +378,8 @@ function App() {
             <Route path={"/login"} element={<Login />}></Route>
             <Route path={"/about"} element={<About />}></Route>
             <Route path={"/schedule"} element={<Schedule />}></Route>
+            <Route path={"/room"} element={<Room />}></Route>
+            <Route path={"/popup"} element={<Popup/>}></Route>
           </Routes>
         </Box>
       </Router>

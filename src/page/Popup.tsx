@@ -4,7 +4,6 @@ import PopupDialog from '../component/PopupDialog.tsx';
 
 function Popup() {
     
-  
   return (
     <React.Fragment>
       <PopupDialog/>
